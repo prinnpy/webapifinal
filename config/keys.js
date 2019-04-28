@@ -4,8 +4,8 @@
 
 if (process.env.NODE_ENV === 'production') {
     //in productions
-    module.export = require('./prod');
+    module.exports = require('./prod');
 } else {
     //in dev
-    modules.exports = require('./dev');
+    module.exports = require('./dev');
 }
